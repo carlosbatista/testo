@@ -1,0 +1,1 @@
+linko.d: ../linko.c

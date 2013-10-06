@@ -1,0 +1,31 @@
+
+**** Build of configuration Debug for project linked ****
+
+make all 
+Building target: linked
+Invoking: GCC C Linker
+gcc  -o "linked"  ./linko.o   
+/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: ld returned 1 exit status
+make: *** [linked] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Release for project linked ****
+
+make all 
+Building file: ../linko.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"linko.d" -MT"linko.d" -o "linko.o" "../linko.c"
+Finished building: ../linko.c
+ 
+Building target: linked
+Invoking: GCC C Linker
+gcc  -o "linked"  ./linko.o   
+/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: ld returned 1 exit status
+make: *** [linked] Error 1
+
+**** Build Finished ****
