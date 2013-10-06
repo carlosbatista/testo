@@ -12,6 +12,7 @@ class Bicycle {
 	
 	void changeGear(int newValue)
 	{
+		//comment
 		gear=newValue;
 	}
 	
